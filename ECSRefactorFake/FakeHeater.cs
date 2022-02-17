@@ -24,6 +24,11 @@ namespace ECSRefactorFake
             return true;
         }
 
+        public void ResetCount()
+        {
+            Count = 0;
+        }
+
         public int Count
         {
             get;
