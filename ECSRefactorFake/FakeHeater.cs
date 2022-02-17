@@ -12,6 +12,7 @@ namespace ECSRefactorFake
         public void TurnOn()
         {
             System.Console.WriteLine("Heater is on");
+            ++Count;
         }
 
         public void TurnOff()
