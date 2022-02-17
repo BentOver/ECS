@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ECSRefactorFake\ECSRefactorFake.csproj" />
+    <ProjectReference Include="..\ECSRefactorFakeLibrary\ECSRefactorFakeLibrary.csproj" />
     <ProjectReference Include="..\ECSRefactor\ECSRefactor.csproj" />
   </ItemGroup>
 

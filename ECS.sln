@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestECS", "TestECS\TestECS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSRefactor", "ECSRefactor\ECSRefactor.csproj", "{3DA776AD-202E-48CE-9F40-7CBFA08A2DEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSRefactorFake", "ECSRefactorFake\ECSRefactorFake.csproj", "{0E3F676B-C27B-48DC-8EB8-0E587A0A8AB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSRefactorFakeLibrary", "ECSRefactorFakeLibrary\ECSRefactorFakeLibrary.csproj", "{71E2021D-9188-4E6C-9B52-BDB332369A40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{3DA776AD-202E-48CE-9F40-7CBFA08A2DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA776AD-202E-48CE-9F40-7CBFA08A2DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DA776AD-202E-48CE-9F40-7CBFA08A2DEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E3F676B-C27B-48DC-8EB8-0E587A0A8AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E3F676B-C27B-48DC-8EB8-0E587A0A8AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E3F676B-C27B-48DC-8EB8-0E587A0A8AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E3F676B-C27B-48DC-8EB8-0E587A0A8AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E2021D-9188-4E6C-9B52-BDB332369A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E2021D-9188-4E6C-9B52-BDB332369A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E2021D-9188-4E6C-9B52-BDB332369A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E2021D-9188-4E6C-9B52-BDB332369A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
