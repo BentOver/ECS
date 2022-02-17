@@ -8,11 +8,11 @@ namespace ECSRefactor
         private readonly ITempSensor _tempSensor;
         private readonly IHeater _heater;
 
-        public ECS(int thr)
+        public ECS(int thr, IHeater heater, ITempSensor tsensor)
         {
             SetThreshold(thr);
-            _tempSensor = new TempSensor();
-            _heater = new Heater();
+            _tempSensor = tsensor;
+            _heater = heater;
         }
 
         public void Regulate()
