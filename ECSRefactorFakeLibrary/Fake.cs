@@ -7,7 +7,7 @@ namespace ECSRefactorFakeLibrary
         public void TurnOn()
         {
             System.Console.WriteLine("Heater is on");
-            ++Count;
+            Count++;
         }
 
         public void TurnOff()
@@ -29,7 +29,7 @@ namespace ECSRefactorFakeLibrary
         {
             get;
             set;
-        }
+        } = 0;
     }
     public class FakeTempSensor : ITempSensor
     {
