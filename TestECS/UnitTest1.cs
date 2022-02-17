@@ -9,7 +9,8 @@ namespace TestECS
         [SetUp]
         public void Setup()
         {
-            uut = new ECS(20);
+
+            uut = new ECS(20, new Heater(), new TempSensor());
         }
 
         [Test]
