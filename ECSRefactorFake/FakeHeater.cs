@@ -23,5 +23,11 @@ namespace ECSRefactorFake
         {
             return true;
         }
+
+        public int Count
+        {
+            get;
+            set;
+        }
     }
 }

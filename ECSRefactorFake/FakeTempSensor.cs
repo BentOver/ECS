@@ -9,14 +9,21 @@ namespace ECSRefactorFake
 {
     public class FakeTempSensor : ITempSensor
     {
+        private int temp_;
         public int GetTemp()
         {
-            return 23;
+            return temp_;
         }
 
         public bool RunSelfTest()
         {
             return true;
         }
+
+        public void SetTemp(int temp)
+        {
+            temp_ = temp;
+        }
+        
     }
 }
