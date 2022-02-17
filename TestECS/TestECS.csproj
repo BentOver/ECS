@@ -14,4 +14,9 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ECSRefactorFake\ECSRefactorFake.csproj" />
+    <ProjectReference Include="..\ECSRefactor\ECSRefactor.csproj" />
+  </ItemGroup>
+
 </Project>
