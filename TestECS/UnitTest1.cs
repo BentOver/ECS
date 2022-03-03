@@ -6,7 +6,7 @@ namespace TestECS
 {
     public class Tests
     {
-        private ECS uut;
+        private ECS? uut;
         private FakeHeater heater = new FakeHeater();
         private FakeTempSensor ts = new FakeTempSensor();
         [SetUp]
@@ -46,6 +46,18 @@ namespace TestECS
             Assert.That(heater.Count, Is.EqualTo(count));
 
         }
+
+        [Test]
+        public void HeaterRunSelfTest()
+        {
+            Assert.That(heater.RunSelfTest());
+        }
+        [Test]
+        public void TempSensorRunSelfTest()
+        {
+            Assert.That(ts.RunSelfTest());
+        }
+
 
 
     }
