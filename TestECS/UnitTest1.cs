@@ -57,7 +57,11 @@ namespace TestECS
         {
             Assert.That(ts.RunSelfTest());
         }
-
+        [Test]
+        public void ECSRunSelfTest()
+        {
+            Assert.That(uut.RunSelfTest());
+        }
 
 
     }
