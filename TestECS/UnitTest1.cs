@@ -35,9 +35,11 @@ namespace TestECS
             Assert.That(uut.GetThreshold(), Is.EqualTo(threshold));
         }
 
-        [TestCase(20,1)]
-        [TestCase(26,0)]
-        [TestCase(17,1)]
+     
+        [TestCase(int.MaxValue,0)]
+        [TestCase(int.MinValue,1)]
+        [TestCase(21,1)]
+        [TestCase(23,0)]
         public void RegulateGetCount(int temp, int count)
         {
             heater.ResetCount();
