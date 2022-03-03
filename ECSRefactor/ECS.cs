@@ -43,7 +43,7 @@ namespace ECSRefactor
 
         public bool RunSelfTest()
         {
-            return _tempSensor.RunSelfTest() && _heater.RunSelfTest();
+            return _tempSensor.RunSelfTest() & _heater.RunSelfTest();
         }
     }
 }
